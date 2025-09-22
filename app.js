@@ -29,3 +29,11 @@ for (cars of carsList) {
         this.style.color = "red";
     });
 } // Change color of list item on click
+
+
+const button = document.querySelector(".btn");
+button.addEventListener("click", function() {
+    style.backgroundColor = "yellow";
+}); // Button click event
+
+// --- IGNORE ---

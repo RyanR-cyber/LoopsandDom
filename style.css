@@ -5,3 +5,7 @@
     text-align:center;
 }
 
+.carsList li{
+    font-size:30px;
+    color:green;
+}
