@@ -5,15 +5,10 @@
     text-align:center;
 }
 
-.carsList li{
+.highlight{
+    background-color:yellow;
+    font-weight:bold;
     font-size:30px;
-    color:green;
+    text-align:left;
 }
 
-.btn{
-    background-color:blue;
-    color:white;
-    font-size:20px;
-    padding:10px;
-    border-radius:5px;
-}

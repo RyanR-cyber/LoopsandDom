@@ -22,5 +22,8 @@ const text = document.querySelector(".title");
 
 text.classList.add("change"); //Change css with JS
 
-
-
+document.querySelectorAll(".petList li").forEach(item => {
+    FileList.onclick = () => {
+        item.classList.toggle("highlight");
+    }
+}); // Toggle class on click
