@@ -31,9 +31,14 @@ for (cars of carsList) {
 } // Change color of list item on click
 
 
-const button = document.querySelector(".btn");
-button.addEventListener("click", function() {
-    style.backgroundColor = "yellow";
-}); // Button click event
+const button = document.querySelectorAll(".btn");
 
-// --- IGNORE ---
+for (btn of button) {
+    btn.addEventListener ("click", function() {
+        this.style.backgroundColor = "green";
+        this.style.color = "white";
+        this.style.fontSize = "30px";
+        this.style.padding = "20px";
+        this.style.borderRadius = "10px";
+    });
+} // Change button style on click
