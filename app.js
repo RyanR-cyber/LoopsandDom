@@ -25,11 +25,7 @@ text.classList.add("change"); //Change css with JS
 const carsList = document.querySelectorAll(".carsList li");
 
 for (cars of carsList) {
-    cars.addEventListener("click", function() {
+    cars.addEventListener ("click", function() {
         this.style.color = "red";
-    
-
-
-
-    
-} // Change list items with JS
+    });
+} // Change color of list item on click
