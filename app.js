@@ -23,6 +23,11 @@ const text = document.querySelector(".title");
 text.classList.add("change"); //Change css with JS
 
 document.querySelectorAll(".petList li").forEach(item => {
+    const color = "blue"; // variable for color
+    item.style.color = color; // changing css style
+    }  ); // Change color of list items
+
+  document.querySelectorAll(".pet2List li").forEach(item => {
     item.onclick = () => {
         item.classList.toggle("highlight");
     }
