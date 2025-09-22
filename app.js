@@ -1,8 +1,8 @@
-const carsList = ['chevy', 'ford', 'honda', 'toyota'];
+const cars = ['chevy', 'ford', 'honda', 'toyota'];
 
-for (carsList of cars) {
-    console.log(carsList);
-    if (carsList === 'honda') {
+for (let name of cars) {
+    console.log(name);
+    if (name === 'honda') {
         console.log('we found the Honda!');
         break;
     }
@@ -18,10 +18,9 @@ while (i <=6) {
 }
 console.log("Total is:"+ j); // While Loop
     
-
-
 const text = document.querySelector(".title");
 
 text.classList.add("change"); //Change css with JS
+
 
 
