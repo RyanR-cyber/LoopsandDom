@@ -1,6 +1,6 @@
 const cars = ['chevy', 'ford', 'honda', 'toyota'];
 
-for (name of cars) {
+for ( let name of cars) {
     console.log(name);
     if (name === 'honda') {
         console.log('we found the Honda!');
@@ -42,3 +42,6 @@ for (btn of button) {
         this.style.borderRadius = "10px";
     });
 } // Change button style on click
+
+const text2 = document.querySelector(".subtitle");
+text2.classList.add("btn"); //Change css with JS
